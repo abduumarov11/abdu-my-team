@@ -548,6 +548,9 @@ footer .footer-icons .footer-img {
   .section2 .ball2::before {
     left: 0;
   }
+  .section1__content--right .all--p {
+    width: 100%;
+  }
   .section3-content__bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -559,7 +562,7 @@ footer .footer-icons .footer-img {
     padding-bottom: 50px;
   }
   .section3 .block--p::before {
-    left: 45%;
+    left: 43%;
   }
   .section4-content {
     -webkit-box-orient: vertical;
