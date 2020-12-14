@@ -417,6 +417,7 @@ footer {
     line-height: 25px;
     color: #FFFFFF;
     display: block;
+    outline: none;
 }
 
 .ml {
@@ -436,6 +437,7 @@ footer {
     border-radius: 24px;
     padding: 10px 32px;
     margin-top: 24px;
+    outline: none;
 }
 
 .type-input {
@@ -450,6 +452,7 @@ footer {
     background: #014E56;
     margin-bottom: 10px;
     display: block;
+    outline: none;
 }
 
 .title-h2 {
@@ -513,6 +516,10 @@ footer {
         padding-top: 140px;
         text-align: center;
         padding-bottom: 168px;
+
+        .all--h2 {
+            margin-bottom: 64px;
+        }
     }
 }
 
@@ -533,6 +540,10 @@ footer {
     padding: 32px;
     margin-bottom: 76px;
     margin-bottom: 64px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .after-logo__text {
@@ -795,7 +806,7 @@ footer {
         background-image: url('../images/contac-bgi.svg');
         background-repeat: no-repeat;
         background-size: 122px 100px;
-        background-position: right bottom  ;
+        background-position: right bottom;
     }
 
     .section2__content--left .all--h2 {
