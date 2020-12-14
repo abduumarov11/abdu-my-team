@@ -664,6 +664,10 @@ footer .footer-icons .footer-img {
   margin-bottom: 16px;
 }
 
+.icon {
+  background: #79C8C7;
+}
+
 @media screen and (max-width: 576px) {
   .container {
     width: 100%;
@@ -736,6 +740,9 @@ footer .footer-icons .footer-img {
   .p-bottom {
     margin-bottom: 64px;
   }
+  .section3 .block--p::before {
+    left: 40%;
+  }
   .section2__content--block::before {
     top: 30px;
     left: 0;
@@ -761,8 +768,8 @@ footer .footer-icons .footer-img {
     width: 100%;
     padding-bottom: 50px;
   }
-  .section3 .block--p::before {
-    left: 43%;
+  footer .footer-icons {
+    left: 38%;
   }
   .section4-content {
     -webkit-box-orient: vertical;
@@ -795,9 +802,6 @@ footer .footer-icons .footer-img {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-  }
-  footer .footer-icons {
-    left: 42%;
   }
   footer .home {
     margin-top: 24px;
@@ -840,7 +844,10 @@ footer .footer-icons .footer-img {
     margin-bottom: 57px;
   }
   .bgc {
-    background-image: url();
+    background-image: url("../images/contac-bgi.svg");
+    background-repeat: no-repeat;
+    background-size: 122px 100px;
+    background-position: right bottom;
   }
   .section2__content--left .all--h2 {
     text-align: center;
@@ -850,7 +857,6 @@ footer .footer-icons .footer-img {
   }
   .ml {
     margin: auto;
-    margin-left: 10%;
     margin-bottom: 88px;
   }
 }
