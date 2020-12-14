@@ -418,6 +418,12 @@ footer {
     color: #FFFFFF;
     display: block;
     outline: none;
+    &:focus {
+        border-bottom-color: dodgerblue;
+    }
+    &:focus::placeholder {
+        color: dodgerblue;
+    }
 }
 
 .ml {
@@ -453,6 +459,12 @@ footer {
     margin-bottom: 10px;
     display: block;
     outline: none;
+    &:focus {
+        border-bottom-color: dodgerblue;
+    }
+    &:focus::placeholder {
+        color:dodgerblue;
+    }
 }
 
 .title-h2 {
@@ -540,7 +552,7 @@ footer {
     padding: 32px;
     margin-bottom: 76px;
     margin-bottom: 64px;
-
+    border-radius:7px;
     &:hover {
         transform: scale(1.2);
     }

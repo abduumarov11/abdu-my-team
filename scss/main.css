@@ -462,6 +462,26 @@ footer .footer-icons .footer-img {
   outline: none;
 }
 
+#area:focus {
+  border-bottom-color: dodgerblue;
+}
+
+#area:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+#area:focus:-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+#area:focus::-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+#area:focus::placeholder {
+  color: dodgerblue;
+}
+
 .ml {
   margin-left: 20%;
   margin-top: 100px;
@@ -496,6 +516,26 @@ footer .footer-icons .footer-img {
   margin-bottom: 10px;
   display: block;
   outline: none;
+}
+
+.type-input:focus {
+  border-bottom-color: dodgerblue;
+}
+
+.type-input:focus::-webkit-input-placeholder {
+  color: dodgerblue;
+}
+
+.type-input:focus:-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+.type-input:focus::-ms-input-placeholder {
+  color: dodgerblue;
+}
+
+.type-input:focus::placeholder {
+  color: dodgerblue;
 }
 
 .title-h2 {
@@ -590,6 +630,7 @@ footer .footer-icons .footer-img {
   padding: 32px;
   margin-bottom: 76px;
   margin-bottom: 64px;
+  border-radius: 7px;
 }
 
 .block:hover {
