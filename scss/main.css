@@ -449,7 +449,7 @@ footer .footer-icons .footer-img {
 
 #area {
   resize: none;
-  padding: 10px 1500px 30px 20px;
+  padding: 10px 150px 30px 20px;
   border: none;
   background: #014E56;
   border-bottom: 2px solid #FFFFFF;
@@ -458,6 +458,7 @@ footer .footer-icons .footer-img {
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
+  display: block;
 }
 
 .ml {
@@ -491,6 +492,7 @@ footer .footer-icons .footer-img {
   border-bottom: 2px solid #FFFFFF;
   background: #014E56;
   margin-bottom: 10px;
+  display: block;
 }
 
 .title-h2 {
