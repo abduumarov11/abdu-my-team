@@ -418,9 +418,11 @@ footer {
     color: #FFFFFF;
     display: block;
     outline: none;
+
     &:focus {
         border-bottom-color: dodgerblue;
     }
+
     &:focus::placeholder {
         color: dodgerblue;
     }
@@ -459,11 +461,13 @@ footer {
     margin-bottom: 10px;
     display: block;
     outline: none;
+
     &:focus {
         border-bottom-color: dodgerblue;
     }
+
     &:focus::placeholder {
-        color:dodgerblue;
+        color: dodgerblue;
     }
 }
 
@@ -552,7 +556,8 @@ footer {
     padding: 32px;
     margin-bottom: 76px;
     margin-bottom: 64px;
-    border-radius:7px;
+    border-radius: 7px;
+
     &:hover {
         transform: scale(1.2);
     }
