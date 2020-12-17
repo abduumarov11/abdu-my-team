@@ -449,7 +449,7 @@ footer .footer-icons .footer-img {
 
 #area {
   resize: none;
-  padding: 10px 120px 30px 20px;
+  padding: 10px 120px 30px 10px;
   border: none;
   background: #014E56;
   border-bottom: 2px solid #FFFFFF;
@@ -457,9 +457,13 @@ footer .footer-icons .footer-img {
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #91B9BC;
   display: block;
   outline: none;
+}
+
+#area::placeholder {
+  color: #91B9BC;
 }
 
 #area:focus {
@@ -483,7 +487,7 @@ footer .footer-icons .footer-img {
 }
 
 .ml {
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 100px;
 }
 
@@ -509,13 +513,17 @@ footer .footer-icons .footer-img {
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
-  padding: 10px 150px 10px 20px;
+  padding: 10px 150px 10px 10px;
   border: none;
   border-bottom: 2px solid #FFFFFF;
   background: #014E56;
   margin-bottom: 10px;
   display: block;
   outline: none;
+}
+
+.type-input::placeholder {
+  color:#91B9BC;
 }
 
 .type-input:focus {
@@ -711,6 +719,8 @@ footer .footer-icons .footer-img {
 
 .contact-padding {
   padding-top: 124px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .section2__content--left .all--h2 {
