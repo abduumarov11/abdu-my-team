@@ -223,6 +223,39 @@ header {
     width: 445px;
 }
 
+.contact-content__left {
+    margin-left: -12.5%;
+}
+
+.contact-block  {
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.contact-h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.block-img {
+    margin-right: 30px;
+}
+
+.contact-content__right {
+    margin-right: -12.5%;
+
+}
+
 .bgi::before {
     content: '';
     background-image: url('../images/section2-bgi.svg');
@@ -461,7 +494,7 @@ footer {
 
 #area {
     resize: none;
-    padding: 10px 120px 30px 20px;
+    padding: 10px 240px 30px 20px;
     border: none;
     background: #014E56;
     border-bottom: 2px solid #FFFFFF;
@@ -480,11 +513,6 @@ footer {
     &:focus::placeholder {
         color: dodgerblue;
     }
-}
-
-.ml {
-    margin-left: 20%;
-    margin-top: 100px;
 }
 
 .button {
@@ -508,7 +536,7 @@ footer {
     font-size: 15px;
     line-height: 25px;
     color: #FFFFFF;
-    padding: 10px 150px 10px 20px;
+    padding: 10px 270px 10px 20px;
     border: none;
     border-bottom: 2px solid#FFFFFF;
     background: #014E56;
@@ -673,6 +701,7 @@ footer {
 
 .contact-padding {
     padding-top: 124px;
+    margin-bottom: 170px;
 }
 
 .section2__content--left .all--h2 {
@@ -689,6 +718,14 @@ footer {
         margin: 0 auto;
         padding: 0 15px;
         box-sizing: border-box;
+    }
+
+    .type-input  {
+        padding: 10px 150px 10px 20px;
+    }
+
+    #area {
+        padding: 10px 120px 30px 20px;
     }
 
     .header__menu--links {
@@ -902,5 +939,30 @@ footer {
 
     .asidebar1.opened {
         transform: translateX(0);
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+    
+    .contact-block  {
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .h2 {
+        margin-top: 80px;
+        margin-bottom: 18px;
+    }
+
+    .block-img  {
+        margin: 0;
+    }
+
+    .contact-content__left {
+        margin: 0;
+        text-align: center;
     }
 }
